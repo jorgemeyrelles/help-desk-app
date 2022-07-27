@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "397807999172",
+    "project_id": "help-desck-app",
+    "storage_bucket": "help-desck-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397807999172:android:959f9ee7c30fc9d7809191",
+        "android_client_info": {
+          "package_name": "com.helpdesckapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397807999172-nmuesl9l3nghc8tej7vekhkdmcbn8ke7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrsWBWoiY1dFmmiOVtrRXdJl5ELzzWjUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397807999172-nmuesl9l3nghc8tej7vekhkdmcbn8ke7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "397807999172-mhhpgose6qmto4828pnapjk0l6kljfdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.helpdesckapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

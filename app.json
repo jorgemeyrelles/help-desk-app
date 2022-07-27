@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "help-desk-app",
+    "slug": "help-desk-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.helpdesckapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.helpdesckapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
