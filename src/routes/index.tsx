@@ -10,18 +10,17 @@ export function Routes() {
   const [user, setUser] = useState<FirebaseAuthTypes.User>();
 
   useEffect(() => {
-    const subscriber = async () => {
-      const resp = await auth()
+    const subscriber = auth()
       .onAuthStateChanged((resp) => {
         setUser(resp);
         setIsLoading(false);
       });
-      return resp;
-    };
-    subscriber();
+    console.log(subscriber);
+
+    return subscriber;
   }, []);
 
-  if (!isLoading) {
+  if (isLoading) {
     return <Loading />
   }
   console.log(!!user);

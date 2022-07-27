@@ -33,7 +33,7 @@ const SignIn: React.FC = () => {
     handle();
   }, [email, pass]);
 
-  const handleClick = async () => {
+  const handleClick = () => {
     try {
       // await schema.validate({ email, password: pass });
 
